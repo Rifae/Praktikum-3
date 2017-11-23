@@ -1,0 +1,110 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 13px;
+    background-image: url(3.jpg), url(paper.gif);
+   
+
+}
+header{
+    background-color:#4682B4;
+    color: #ffffff;
+    padding-top:5px;
+    padding-bottom:5px;
+    padding-left:10px;
+    margin-right: 200px;
+    margin-left: 200px;
+}
+
+header h1{
+    text-transform: uppercase;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left:10px;
+    margin-right: 200px;
+    margin-left: 200px;;
+
+    text-transform: uppercase;
+}
+p {
+    margin-top: 50px;
+    margin-bottom: 0px;
+    margin-right: 200px;
+    margin-left:  200px;
+    padding-left:10px;
+    padding-top:0px;
+    padding-bottom:0px;
+    background-color:#008080;
+    color:#FFFFFF;
+}
+
+nav{
+    padding-top:0px;
+    padding-bottom:0px;
+    padding-left:0px;
+    margin-right: 200px;
+    margin-left: 200px;
+    background-color: #008080;
+    display: -webkit-box;
+}
+
+nav ul{
+    float: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 200px;
+    margin-left:  200px;
+    padding-top:0px;
+    padding-bottom:0px;
+}
+
+nav ul li{
+    float: left;
+}
+
+nav ul li a{
+    display: table;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+nav ul li a:hover{
+    background-color: #f26a6a;
+}
+
+article{
+    padding: 10px;
+}
+
+footer{
+    margin: 0px;
+    padding-top:10px;
+    padding-bottom: 10px;
+    padding-left:10px;
+    margin-right: 200px;
+    margin-left: 200px;
+    background-color: #4682B4;
+    color: #ffffff;
+    text-align: center;
+}
+
+/*css untuk halaman registrasi*/
+label{
+    display: block;
+    margin-top:5px;
+    margin-bottom:5px;
+}
+input, textarea, select, button{
+    display: block;
+}
+
+button{
+    margin-top : 10px;
+    border: 1px solid #ebebeb;
+    padding:7px;
+}
